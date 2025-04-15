@@ -2,7 +2,8 @@ import gpiod
 import time
 import subprocess
 
-blockedList = ["(192.168.2.7)"]
+# Add ip's you want to block here.
+blockedList = [""]
 
 
 def checkBlock(item):
